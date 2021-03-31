@@ -16,6 +16,7 @@ Simple Webpack 5 React Starter. It contains:
 - [x] Linting files and commit messages on commit
 - [x] SVG and image files support
 - [x] Commitizen
+- [x] Automated versioning and CHANGELOG generation
 
 ## Prerequisites
 
