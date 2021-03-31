@@ -55,6 +55,18 @@ export default {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
+
+      // SVG loader
+      {
+        test: /\.svg$/,
+        loader: '@svgr/webpack',
+      },
+
+      // Images: Copy image files to build folder
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
 

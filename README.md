@@ -14,6 +14,7 @@ Simple Webpack 5 React Starter. It contains:
 - [x] Stylelint
 - [x] Prettier
 - [x] Linting files and commit messages on commit
+- [x] SVG and image files support
 
 ## Prerequisites
 
