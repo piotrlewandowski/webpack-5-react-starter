@@ -1,0 +1,46 @@
+{
+  "ignorePatterns": ["dist", "node_modules"],
+  "rules": {
+    "indent": ["error", 2, {"SwitchCase":  1}],
+    "no-console": ["error", {"allow":["error", "warn", "info"]}],
+    "no-multiple-empty-lines": ["warn", {"max": 1}],
+    "no-undef": 2,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "quotes": ["error", "single"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/no-render-return-value": 0,
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": 0,
+    "jsx-quotes": ["error", "prefer-double"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "env": {
+    "es2021": true,
+    "browser": true,
+    "node": true
+  },
+  "extends":[
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "prettier"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect"
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
+}
