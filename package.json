@@ -29,9 +29,9 @@
   "author": "Piotr Lewandowski <contact@piotrlewandowski.info> (piotrlewandowski.info)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/piotrlewandowski/webpack-4-react-starter/issues"
+    "url": "https://github.com/piotrlewandowski/webpack-5-react-starter/issues"
   },
-  "homepage": "https://github.com/piotrlewandowski/webpack-4-react-starter#readme",
+  "homepage": "https://github.com/piotrlewandowski/webpack-5-react-starter#readme",
   "devDependencies": {
     "@babel/core": "7.13.14",
     "@babel/eslint-parser": "7.13.14",
