@@ -20,7 +20,11 @@ export default webpackMerge(baseConfig, {
     rules: [
       {
         test: /\.(sa|sc|c)ss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } },
+        ],
       },
     ],
   },
@@ -43,7 +47,6 @@ export default webpackMerge(baseConfig, {
     minimizer: [
       new CssMinimizerPlugin({
         parallel: true,
-        sourceMap: true,
       }),
       new TerserPlugin({
         parallel: true,
