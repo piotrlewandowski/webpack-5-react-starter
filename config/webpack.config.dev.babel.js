@@ -24,21 +24,14 @@ export default webpackMerge(baseConfig, {
 
     port: 8080,
 
-    contentBase: paths.public,
+    static: {
+      directory: paths.public,
+    },
 
     // Enable gzip compression of generated files.
     compress: true,
 
     historyApiFallback: true,
-
-    watchOptions: {
-      aggregateTimeout: 300,
-      poll: 1000,
-    },
-
-    stats: {
-      colors: true,
-    },
   },
 
   module: {
