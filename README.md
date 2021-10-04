@@ -25,7 +25,7 @@ Simple Webpack 5 React Starter. It contains:
 
 ## Getting Started
 
-1. Clone the repository `git clone git@github.com:piotrlewandowski/webpack-5-react-starter.git`
+1. Clone the repository `gh repo clone piotrlewandowski/webpack-5-react-starter` (or if you're not using GitHub CLI: `git clone git@github.com:piotrlewandowski/webpack-5-react-starter.git`)
 2. If you're using NVM run `nvm use` inside project directory to use node version set in `.nvmrc` file
 3. Run `npm install` or `npm i` to install all the dependencies
 4. To begin development task, run `npm start`
