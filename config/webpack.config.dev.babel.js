@@ -17,9 +17,6 @@ export default webpackMerge(baseConfig, {
 
   // Spin up a server for quick development
   devServer: {
-    // Enable hot reloading server.
-    hot: true,
-
     open: false,
 
     port: 8080,
